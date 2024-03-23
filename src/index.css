@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "poppins";
+}
+
+.dropdown {
+  @apply w-full lg:max-w-[296px] cursor-pointer;
+}
+
+.dropdown-btn {
+  @apply flex h-[64px] items-center px-[18px] border rounded-lg;
+}
+
+.dropdown-icon {
+  @apply text-2xl mr-[18px] text-blue-500;
+}
+
+.dropdown-icon-secondary {
+  @apply text-2xl text-blue-500 ml-auto;
+}
+
+.dropdown-menu {
+  @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10
+list-none rounded-b-lg;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins.ttf");
+}
+
+@font-face {
+  font-family: "Rahmuna";
+  src: url("../public/fonts/Rahmuna.ttf");
+}
+
+@font-face {
+  font-family: "Jaguar";
+  src: url("../fonts/Jaguar.ttf");
+}
+@font-face {
+  font-family: "Bakojin";
+  src: url("../fonts/Bakojin.ttf");
+}
