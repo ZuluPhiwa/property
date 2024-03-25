@@ -20,9 +20,11 @@ const Home2 = () => {
               Eswatini's largest property search portal and is the first place
               to start your property search!
             </h1>
-            <button className=" p-2 my-2 border rounded-md shadow-md bg-blue-500 text-white">
-              <Link to="/property/search">Search</Link>
-            </button>
+            <Link to="/property/search">
+              <button className=" p-2 my-2 border rounded-md shadow-md bg-blue-500 text-white">
+                Search
+              </button>
+            </Link>
           </div>
 
           <div>
